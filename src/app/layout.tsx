@@ -46,6 +46,10 @@ export default function RootLayout({
           name="twitter:image"
           content="https://aura-interiors.vercel.app/about-hero-image.jpg"
         />
+        <meta
+          name="twitter:url"
+          content="https://aura-interiors.vercel.app/"
+        />
       </Head>
       <body className={sofia.className}>
         <div className="flex flex-col items-center justify-center">
