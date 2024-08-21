@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        
+        <title>Awesome Project</title>
         <meta property="og:title" content="Aura Interiors" />
         <meta
           property="og:description"
@@ -17,7 +17,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://aura-interiors.vercel.app/about-hero-image.jpg"
+          content="https://aura-interiors.vercel.app/Link-Preview-Image.jpg"
         />
         <meta property="og:url" content="https://aura-interiors.vercel.app" />
         <meta property="og:type" content="website" />
