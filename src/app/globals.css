@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --primary: #b87333;
+  --secondary: #3c5b63;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,18 +18,238 @@
   }
 }
 
+@font-face {
+  font-family: "Larken";
+  src: url("/fonts/fonnts.com-Larken_Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larken";
+  src: url("/fonts/fonnts.com-Larken_Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larken";
+  src: url("/fonts/fonnts.com-Larken_Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larken";
+  src: url("/fonts/fonnts.com-Larken_Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 150%;
 }
 
 @layer utilities {
+  .input-bg {
+    background-color: #f3f2f1;
+  }
+  .custom-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+  }
+
+  /* Focus state */
+  .custom-input:focus {
+    border-color: var(--primary); /* Primary color */
+    box-shadow: 0 0 5px var(--secondary); /* Light shadow */
+  }
+
+  /* Placeholder styling */
+  .custom-input::placeholder {
+    color: #aaa; /* Lighter placeholder text */
+    font-style: italic;
+  }
+
+  /* Transition for smooth interaction */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    transition: all 0.3s ease-in-out;
+  }
   .text-balance {
     text-wrap: balance;
+  }
+  .bg-hero-image {
+    background-image: url("/HeroImage.jpg");
+  }
+  .bg-about-hero-image {
+    background-image: url("/about-hero-image.jpg");
+  }
+  .bg-about-cta-image {
+    background-image: url("/CTA-about-image.jpg");
+  }
+  .about-paragraph {
+    font-weight: 400;
+    line-height: 180%;
+  }
+  .larken {
+    font-family: "Larken", serif;
+  }
+  .h1 {
+    -webkit-text-stroke: 1px black;
+    font-family: "Larken", serif;
+    font-weight: 500;
+    font-size: 67px;
+  }
+  .h1-bold {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 67px;
+  }
+  .h2 {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 54px;
+  }
+  .h3 {
+    font-family: "Larken", serif;
+    font-weight: 300;
+    font-size: 44px;
+  }
+  .h3-bold {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 44px;
+  }
+  .h4 {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .h5 {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .h6 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .h1-tablet {
+    font-family: "Larken", serif;
+    font-weight: normal;
+    font-size: 53px;
+  }
+  .h1-tablet-bold {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 53px;
+  }
+  .h2-tablet {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 44px;
+  }
+  .h3-tablet {
+    font-family: "Larken", serif;
+    font-weight: 300;
+    font-size: 37px;
+  }
+  .h3-bold-tablet {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 37px;
+  }
+  .h4-tablet {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 31px;
+  }
+  .h5-tablet {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .h6-tablet {
+    font-weight: bold;
+    font-size: 21px;
+  }
+  .h1-mobile {
+    font-family: "Larken", serif;
+    font-weight: normal;
+    font-size: 47px;
+  }
+  .h1-mobile-bold {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 47px;
+  }
+  .h2-mobile {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 39px;
+  }
+  .h2-mobile-regular {
+    font-family: "Larken", serif;
+    font-weight: 400;
+    font-size: 39px;
+  }
+  .h3-mobile {
+    font-family: "Larken", serif;
+    font-weight: 300;
+    font-size: 33px;
+  }
+  .h3-bold-mobile {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 33px;
+  }
+  .h4-mobile {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 27px;
+  }
+  .h5-mobile {
+    font-family: "Larken", serif;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  .h6-mobile {
+    font-weight: bold;
+    font-size: 19px;
+  }
+  .paragraph {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .paragraph-tablet {
+    font-weight: 400;
+    font-size: 19px;
+  }
+  .paragraph-mobile {
+    font-weight: 400;
+    font-size: 16px;
   }
 }
