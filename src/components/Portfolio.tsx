@@ -51,7 +51,7 @@ const PortfolioImage = ({
   index: number;
 }) => {
   return (
-    <div className="relative h-auto lg:col-span-1">
+    <a href="#" className="relative h-auto lg:col-span-1 cursor-pointer">
       <Image
         src={src}
         height={0}
@@ -59,7 +59,7 @@ const PortfolioImage = ({
         className="h-auto lg:w-[426px]"
         alt={alt}
       />
-    </div>
+    </a>
   );
 };
 

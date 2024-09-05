@@ -47,7 +47,7 @@ const Footer = () => {
           {/* Actual social links and prifacy policy */}
           <div className="hidden xl:flex justify-between gap-4 ">
             <a
-              href="#"
+              href="https://www.instagram.com/bkr_bednow/#"
               className="group border-2 p-3 border-black rounded-full  bg-secondary hover:bg-transparent cursor-pointer"
             >
               <Instagram
@@ -57,7 +57,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61555123894999"
               className="group border-2 p-3 border-black rounded-full  bg-secondary hover:bg-transparent cursor-pointer"
             >
               <Facebook
@@ -67,7 +67,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/abubakr-ali-665aa031a/"
               className="group border-2 p-3 border-black rounded-full  bg-secondary hover:bg-transparent cursor-pointer"
             >
               <Linkedin
@@ -77,7 +77,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="#"
+              href="https://x.com/babubkre"
               className="group border-2 p-3 border-black rounded-full  bg-secondary hover:bg-transparent cursor-pointer"
             >
               <Twitter
@@ -120,7 +120,7 @@ const Footer = () => {
             </div>
             <div className="flex justify-center gap-8">
               <a
-                href="#"
+                href="https://www.instagram.com/bkr_bednow/"
                 className="group border-2 p-3 border-black rounded-full  bg-secondary hover:bg-transparent cursor-pointer"
               >
                 <Instagram
@@ -130,7 +130,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61555123894999"
                 className="group border-2 p-3 border-black rounded-full  bg-secondary hover:bg-transparent cursor-pointer"
               >
                 <Facebook
@@ -140,7 +140,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/abubakr-ali-665aa031a/"
                 className="group border-2 p-3 border-black rounded-full  bg-secondary hover:bg-transparent cursor-pointer"
               >
                 <Linkedin
@@ -150,7 +150,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="#"
+                href="https://x.com/babubkre"
                 className="group border-2 p-3 border-black rounded-full  bg-secondary hover:bg-transparent cursor-pointer"
               >
                 <Twitter
