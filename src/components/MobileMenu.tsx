@@ -36,7 +36,11 @@ const MobileMenu = () => {
             <li>
               <Link
                 href="/about"
-                className="text-2xl font-semibold capitalize text-custom-black-600"
+                className="text-2xl font-semibold capitalize text-custom-black-600 relative block
+               after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
+                after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
+                 after:origin-right after:hover:origin-left"
+                onClick={toggleMenu}
               >
                 about
               </Link>
@@ -44,7 +48,11 @@ const MobileMenu = () => {
             <li>
               <Link
                 href="/about"
-                className="text-2xl font-semibold capitalize text-custom-black-600"
+                className="text-2xl font-semibold capitalize text-custom-black-600 relative block
+               after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
+                after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
+                 after:origin-right after:hover:origin-left"
+                onClick={toggleMenu}
               >
                 Contact
               </Link>
@@ -52,7 +60,11 @@ const MobileMenu = () => {
             <li>
               <Link
                 href="/about"
-                className="text-2xl font-semibold capitalize text-custom-black-600"
+                className="text-2xl font-semibold capitalize text-custom-black-600 relative block
+               after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
+                after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
+                 after:origin-right after:hover:origin-left"
+                onClick={toggleMenu}
               >
                 Portfolio
               </Link>

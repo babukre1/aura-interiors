@@ -15,7 +15,7 @@ export default function About() {
         <div className="w-full mt-16">
           {/* 1 */}
           <AboutInfo
-            src="/whoWeAre-Image.jpg"
+            src="/whoWeAre.jpg"
             alt="who we are Image"
             description="Aura Interiors is a premier interior design agency dedicated to transforming spaces into luxurious and functional
              environments. Our team of passionate and skilled designers brings a wealth of experience and creativity to
@@ -49,7 +49,7 @@ export default function About() {
         <div className="w-full mt-16 mb-8">
           {/* 1 */}
           <AboutInfo
-            src="/whatWeDo-Image1.jpg"
+            src="/whatWeDo1.jpg"
             alt="who we are Image"
             description="At Aura Interiors, we specialize in transforming spaces with our comprehensive interior 
             design services. Our expertise includes optimizing space layouts, curating stylish interiors with
@@ -64,7 +64,7 @@ export default function About() {
         <div className="w-full mt-8">
           {/* 2 */}
           <AboutInfo
-            src="/whatWeDo-Image2.jpg"
+            src="/whatWeDo2.jpg"
             alt="who we are Image"
             description=" Our services also encompass sustainable design, renovation and remodeling, art and
             accessory selection, custom window treatments, and functional kitchen and bathroom designs. Our
