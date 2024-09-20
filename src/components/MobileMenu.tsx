@@ -35,6 +35,18 @@ const MobileMenu = () => {
           <ul className="flex items-center flex-col gap-6">
             <li>
               <Link
+                href="/"
+                className="text-2xl font-semibold capitalize text-custom-black-600 relative block
+               after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
+                after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
+                 after:origin-right after:hover:origin-left"
+                onClick={toggleMenu}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/about"
                 className="text-2xl font-semibold capitalize text-custom-black-600 relative block
                after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
@@ -42,12 +54,12 @@ const MobileMenu = () => {
                  after:origin-right after:hover:origin-left"
                 onClick={toggleMenu}
               >
-                about
+                About
               </Link>
             </li>
             <li>
               <Link
-                href="/about"
+                href="/contact"
                 className="text-2xl font-semibold capitalize text-custom-black-600 relative block
                after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
                 after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
@@ -57,21 +69,9 @@ const MobileMenu = () => {
                 Contact
               </Link>
             </li>
-            <li>
-              <Link
-                href="/about"
-                className="text-2xl font-semibold capitalize text-custom-black-600 relative block
-               after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
-                after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
-                 after:origin-right after:hover:origin-left"
-                onClick={toggleMenu}
-              >
-                Portfolio
-              </Link>
-            </li>
           </ul>
           <Link
-            href={"/about"}
+            href={"/contact"}
             className="relative md:hidden  px-10 py-4 overflow-hidden border border-secondary bg-primary rounded-3xl
            text-custom-black-100 font-bold  transition-all before:absolute before:bottom-0 before:left-0
             before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all

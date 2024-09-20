@@ -17,6 +17,15 @@ const Navbar = () => {
             {" "}
             {/* Nav Links*/}
             <Link
+              href="/"
+              className="text-lg font-semibold capitalize text-custom-black-600 relative block
+               after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
+                after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
+                 after:origin-right after:hover:origin-left"
+            >
+              Home
+            </Link>
+            <Link
               href="/about"
               className="text-lg font-semibold capitalize text-custom-black-600 relative block
                after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
@@ -34,18 +43,9 @@ const Navbar = () => {
             >
               contact
             </Link>
-            <Link
-              href="/about"
-              className="text-lg font-semibold capitalize text-custom-black-600 relative block
-               after:block after:absolute after:left-0 after:h-1 after:bg-primary after:w-full
-                after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
-                 after:origin-right after:hover:origin-left"
-            >
-              portfolio
-            </Link>
           </div>
           <Link
-            href={"/about"}
+            href={"/contact"}
             className="relative md:block hidden lg:order-3 order-1 lg:px-10 lg:py-4 px-8 py-3.5 text-base overflow-hidden border border-secondary bg-primary rounded-3xl
            text-custom-black-100 font-bold  transition-all before:absolute before:bottom-0 before:left-0
             before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all
