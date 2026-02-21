@@ -30,6 +30,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Awesome Project</title>
+        <meta
+          name="google-site-verification"
+          content="YG6Sz-N1C3lbwIY6t3A0x-0LcQo1iUkirsfU24LyUX4"
+        />
       </head>
       <body className={sofia.className}>
         <div className="flex flex-col items-center justify-center">
