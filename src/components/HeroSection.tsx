@@ -8,7 +8,7 @@ const HeroSection = () => {
           </h1>
           <button
             className="md:py-3 md:px-7 py-2 px-4 text-base text-custom-black-100 capitalize
-           rounded-2xl lg:text-lg font-bold mx-auto larken bg-secondary shadow-2xl hover:bg-[rgba(255,255,255,0.5)]"
+           rounded-2xl lg:text-lg font-bold mx-auto larken bg-secondary focus-button"
           >
             View Portfolio
           </button>

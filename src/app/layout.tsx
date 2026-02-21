@@ -9,7 +9,16 @@ const sofia = Sofia_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Aura Interiors",
   description:
-    "Aura Interiors is a specialized interior design agency with over 10 years of experience",
+    "Aura Interiors is a specialized interior design and decoration agency located in mogadishu somalia with over 10 years of experience",
+  metadataBase: new URL("https://aura-interiors.vercel.app"),
+  openGraph: {
+    title: "Aura Interiors",
+    description:
+      "Aura Interiors is a specialized interior design and decoration agency located in mogadishu somalia with over 10 years of experience.",
+    url: "https://aura-interiors.vercel.app",
+    siteName: "Aura Interiors",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
