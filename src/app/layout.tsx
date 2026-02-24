@@ -30,9 +30,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Awesome Project</title>
-        <meta
-          name="google-site-verification"
-          content="YG6Sz-N1C3lbwIY6t3A0x-0LcQo1iUkirsfU24LyUX4"
+      <meta 
+        name="google-site-verification" 
+        content="Gk9HOCluxF8KPSBcBAiPG5hiaiHgtPoZxdxXiinvQn8" 
         />
       </head>
       <body className={sofia.className}>
